@@ -50,9 +50,9 @@ namespace ConsoleApplication1
                 str3 = str;
             }
             Console.WriteLine("The names in alphabetical order are: ");
-            Console.WriteLine(str1);
-            Console.WriteLine(str2);
-            Console.WriteLine(str3);
+            Console.WriteLine("\""+str1.Substring(0,1).ToUpper()+str1.Substring(1,str1.Length-1).ToLower()+"\"");
+            Console.WriteLine("\""+str2.Substring(0,1).ToUpper()+str2.Substring(1,str2.Length-1).ToLower()+"\"");
+            Console.WriteLine("\""+str3.Substring(0,1).ToUpper()+str3.Substring(1,str3.Length-1).ToLower()+"\"");
         }
     }
 }
